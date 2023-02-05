@@ -101,7 +101,7 @@ if ori == "b" or ori == "a" or ori == "p" and User1.gender == "f":
     if x.gender == "Male" and x.orientation != "Gay":
       print(f"There's a match! Your match is:\n{x}")
       break
-if ori == "b" or ori == "a" or ori == "p" and User1.gender == "m":
+elif ori == "b" or ori == "a" or ori == "p" and User1.gender == "m":
   for x in botlist:
     if x.gender == "Male" and x.orientation != "Straight":
       print(f"There's a match! Your match is:\n{x}")
